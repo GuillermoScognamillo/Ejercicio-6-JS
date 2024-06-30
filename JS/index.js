@@ -33,7 +33,7 @@ console.log(vivienda); */
 //Se observa lo mismo, al declarar la variable dentro del bloque if, cuando se quiere mostrar por fuera del bloque, muestra un mensaje de error, que vivienda no esta definida.
 
 
-/* const userName = prompt(`Escriba su numbre`);
+const userName = prompt(`Escriba su numbre`);
 const Edad = prompt(`Escriba su edad`);
 
 let calculo = (a)=>{
@@ -42,7 +42,7 @@ let calculo = (a)=>{
 const diferencia = calculo(Edad);
 
 
-alert(`Hola ${userName}, te faltan ${diferencia} años para cumplir 100`);*/
+alert(`Hola ${userName}, te faltan ${diferencia} años para cumplir 100`);
 
 
 /* Función que averigua si un nro es primo */
