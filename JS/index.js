@@ -85,8 +85,10 @@ function menu(){
     const seleccion = prompt(`Escriba 1 si quiere ver nros primos o 2 si quiere ver NO primos`);
 
     const nro = prompt(`Hasta que nro quiere ver quienes son o no son primos?`);
-
-    if (seleccion == 1) {
+    if (nro > 10000){ //Previene que la página colapse al tener que devolver demasiados valores
+        console.log(`ERROR, el número es demasiado grande`)
+    }
+    else if (seleccion == 1) {
         quienesSonPrimos(nro);
     }
     else if (seleccion == 2) {
