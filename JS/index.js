@@ -59,7 +59,7 @@ let esPrimo = (a) => {
 /* Función que muestra todos los nros primos hasta a */
 let quienesSonPrimos = (a) => {
     contador = 0;
-    for (let i = 2; i < a; i++) {
+    for (let i = 2; i <= a; i++) {
         prueba = esPrimo(i);
         if (prueba == true) {
             console.log(i);
@@ -71,7 +71,7 @@ let quienesSonPrimos = (a) => {
 
 /* Función que muestra todos los nros NO primos hasta a */
 let quienesNoSonPrimos = (a) => {
-    for (let i = 2; i < a; i++) {
+    for (let i = 2; i <= a; i++) {
         prueba = esPrimo(i);
         if (prueba == false) {
             console.log(i);
